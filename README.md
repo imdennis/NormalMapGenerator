@@ -11,7 +11,7 @@ Normal Map Generator is a tool written in Python
 - Jupyter lab/notebook
 
 ## Usage
-Change input and output file path in Jupiter notebook
+Change input and output file path in Jupyter notebook
 
 
 ### Required arguments:
