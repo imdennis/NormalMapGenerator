@@ -5,12 +5,14 @@ Normal Map Generator is a tool written in Python
 ## Required
 
 - Python
-- Scipy
+- Snippy
 - Numpy
+- Imageio
+- Jupyter lab/notebook
 
 ## Usage
+Change input and output file path in Jupiter notebook
 
-./normal_map_generator.py input_file output_file --smooth SMOOTH_VALUE -- intensity INTENSITY_VALUE
 
 ### Required arguments:
 
@@ -22,11 +24,8 @@ output image path
 
 ### Optional arguments:
 
-#### -h, --help            
-Show help message
-
 #### -s SMOOTH_VALUE, --smooth SMOOTH_VALUE
-Smooth gaussian blur applied on the image
+Smooth gaussian blur applied to the image
 
 #### -it INTENSITY_VALUE, --intensity INTENSITY_VALUE
-Intensity of the normal map
+The intensity of the normal map
